@@ -252,3 +252,104 @@ footer p {
   font-size: 10px;
   color: #363636;
 }
+
+/* Media Query Styles for desktop screens */
+@media (min-width: 900px) {
+  body {
+    font-size: 15px;
+  }
+
+  /* Header Styles */
+  header {
+    height: 60px;
+    padding: 15px 100px;
+  }
+
+  /* Hero styles */
+  .hero {
+    padding: 200px 100px;
+  }
+
+  .hero h1 {
+    font-size: 16px;
+  }
+
+  .hero h2 {
+    font-size: 45px;
+  }
+
+  .hero h3 {
+    font-size: 18px;
+  }
+
+  .socials {
+    margin: 200px 100px;
+  }
+
+  /* Portfolio styles */
+  .portfolio {
+    padding: 80px 100px;
+  }
+
+  .project-card {
+    padding: 15px;
+    margin-top: 40px;
+    display: flex;
+  }
+
+  .project-image {
+    width: 50%;
+    margin-right: 30px;
+  }
+
+  .project-content {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .project-content p {
+    margin-top: 8px;
+  }
+
+  .view-source-btn {
+    padding: 8px 30px;
+  }
+
+  /* About Styles */
+  .about {
+    padding: 80px 100px;
+    display: flex;
+  }
+
+  .about-content {
+    width: 50%;
+    margin-right: 30px;
+  }
+
+  .about-image {
+    width: 50%;
+    height: 250px;
+  }
+
+  .about-btn {
+    padding: 8px 30px;
+  }
+
+  /* Contact Styles */
+  .contact {
+    padding: 80px 100px;
+    display: flex;
+  }
+
+  .contact-details {
+    width: 40%;
+  }
+
+  .contact form {
+    width: 60%;
+  }
+
+  .contact-btn {
+    padding: 8px 30px;
+  }
+}
