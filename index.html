@@ -160,9 +160,9 @@
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit soluta
           error illum, magnam accusantium nobis alias modi! Repudiandae, fugit
-          officia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit soluta
-          error illum, magnam accusantium nobis alias modi! Repudiandae, fugit
-          officia.
+          officia. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Velit soluta error illum, magnam accusantium nobis alias modi!
+          Repudiandae, fugit officia.
         </p>
         <button class="about-btn" type="button">Contact Me</button>
       </div>
@@ -182,20 +182,20 @@
         </ul>
       </div>
 
-      <form>
+      <form action="https://formspree.io/f/xzbqpddk" method="POST">
         <div class="form-controls">
           <label for="name">Name</label>
-          <input id="name" type="text" required />
+          <input id="name" type="text" name="name" required />
         </div>
 
         <div class="form-controls">
           <label for="email">Email</label>
-          <input id="email" type="text" required />
+          <input id="email" type="email" name="email" required />
         </div>
 
         <div class="form-controls">
           <label for="message">Message</label>
-          <textarea id="message" cols="10" rows="5" required></textarea>
+          <textarea id="message" cols="10" rows="5" name="message" required></textarea>
         </div>
 
         <button class="contact-btn" type="submit">Send Message</button>
